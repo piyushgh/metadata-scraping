@@ -1,0 +1,5 @@
+{
+    "env":{
+        "CACHE_TIME": "5seconds"
+    }
+}
