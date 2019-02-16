@@ -24,4 +24,11 @@ app.use((req, res, next) => {
     res.status(404).json({message:"not the proper route"});
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 3000, function(error) {
+    if (error) {
+      console.error("Unable to listen on port ", process.env.PORT, error);
+      return;
+    }else{
+        console.log(process.env.PORT);
+    }
+});
