@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.use('/scraping', cache(process.env.CACHE_TIME), scrapRoutes);
 
 app.use((req, res, next) => {
-    res.status(404).json({message:"not the proper route"});
+    res.status(404).json({message:"not the proper route or method."});
 });
 
 app.listen(process.env.PORT || 3000, function(error) {
