@@ -20,4 +20,8 @@ app.use((req, res, next) => {
 //Routing
 app.use('/scraping', cache(process.env.CACHE_TIME), scrapRoutes);
 
+app.use((req, res, next) => {
+    res.status(404).json({message:"not the proper route"});
+});
+
 app.listen(8080);
