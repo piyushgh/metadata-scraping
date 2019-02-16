@@ -12,6 +12,16 @@ POST application/json
 "url": "http://bit.ly/2QDhxRY"
 }
 
+#use the below Curl request
+POST /scraping/scrapPost HTTP/1.1
+Host: metadata-scrapping.herokuapp.com
+Content-Type: application/json
+Cache-Control: no-cache
+Postman-Token: ff8668b7-a075-872c-0390-ac66fe02a3b7
+
+{ "url": "https://login.yahoo.com/"}
+
+
 Steps to run the project in local.
 #Run npm install inside the root of the project.
 #All the dependencies will be downloaded.
