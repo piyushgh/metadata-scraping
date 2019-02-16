@@ -7,7 +7,7 @@ Steps to consume the api.
 #Open postman or a similar app and trigger a POST request.
 Sample postman request
 
-POST url - https://metadata-scrapping.herokuapp.com/scraping/scrapPost
+# POST url - https://metadata-scrapping.herokuapp.com/scraping/scrapPost
 POST application/json
 {
 "url": "http://bit.ly/2QDhxRY"
