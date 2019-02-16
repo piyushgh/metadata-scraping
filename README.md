@@ -1,6 +1,6 @@
 # metadata-scraping
 
-Diaganol Machine Test - Rest api to  scrape an input URL and parse its metadata
+Machine Test - Rest api to  scrape an input URL and parse its metadata
 
 Steps to consume the api.
 
