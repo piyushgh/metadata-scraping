@@ -9,7 +9,7 @@ Sample postman request
 
 POST application/json
 {
-"url:" "http://www.amazon.com/Apple-iPhone-16gb-Space-Unlocked/dp/B00NQGP42Y/"
+"url": "http://bit.ly/2QDhxRY"
 }
 
 Steps to run the project in local.
