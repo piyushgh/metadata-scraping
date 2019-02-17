@@ -7,7 +7,7 @@ const scrapRoutes = require('./routes/scraping');
 
 const app = express();
 
-app.use(bodyParser.json()); // application/json
+app.use(bodyParser.json());
 
 //allow CORS
 app.use((req, res, next) => {

@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines":{
-    "node":"8.11.1"
+  "engines": {
+    "node": "8.11.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha **/*.test.js",
     "start": "node app.js",
     "start-server": "node app.js",
-    "start:dev":"nodemon app.js"
+    "start:dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,10 @@
     "url-metadata": "^2.2.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^3.0.0",
+    "nodemon": "^1.18.4",
+    "tap": "^12.5.3"
   }
 }
